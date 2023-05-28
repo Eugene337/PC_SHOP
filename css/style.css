@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("../assets/bg.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+header {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 30px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.menu-link:hover {
+    border-bottom: solid white;
+}
+
+.s {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.site-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.about-us {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-r {
+    transition: 0.3s;
+}
+
+.img-r:hover {
+    transform: skew(10deg, 10deg);
+}
+
+.site-link {
+    color: crimson;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.site-link:hover {
+    border-bottom: solid crimson;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.img-x {
+    transition: 0.3s;
+}
+
+.img-x:hover {
+    transform: skew(-10deg, -10deg);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.pc-img {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.479);
+    height: 140px;
+    padding-top: 20px;
+}
+
+.foot {
+    color: crimson;
+}
+
+.hh2 {
+    color: white;
+}
+
+.call_us {
+    text-align: center;
+}
+
+.pc-card-link {
+    text-decoration: none;
+    color: rgb(0, 0, 110);
+    transition: 0.2s;
+}
+
+.pc-card-link:hover {
+      border-bottom: solid rgb(0, 0, 110);
+}
+.pci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 150px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.click {
+    position: sticky;
+    bottom: 10px;
+}
+
+.mems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.hhh {
+    text-align: center;
+    color: white;
+}
